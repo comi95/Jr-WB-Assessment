@@ -242,6 +242,12 @@ input,textarea,select { font-family:inherit; font-size:inherit; }
   z-index: 1001;
 }
 
+.nav-logo img {
+  height: clamp(36px, 4vw, 52px);
+  width: auto;
+  object-fit: contain;
+}
+
 .logo-mark {
   display: flex;
   align-items: center;
